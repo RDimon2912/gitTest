@@ -6,13 +6,13 @@ end
 p upd(4, 1)
 
 class Dimas
-	initialize(s)
+	def initialize(s)
 		@s = s
 	end
 end
 
 a = Dimas.new("2fewf")
-p a 
+puts a 
 
 def sum(a, b) 
 	a + b
