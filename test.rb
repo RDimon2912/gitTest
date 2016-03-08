@@ -1,3 +1,4 @@
+
 def upd(a, b)
 	a - b
 end
@@ -12,3 +13,10 @@ end
 
 a = Dimas.new("2fewf")
 p a 
+
+def sum(a, b) 
+	a + b
+end
+
+p sum(1, 3)
+
